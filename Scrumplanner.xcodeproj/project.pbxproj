@@ -21,6 +21,7 @@
 		22B5770A2AF3CA1400DA5FDA /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B577092AF3CA1400DA5FDA /* AVPlayer+Ding.swift */; };
 		22B5770D2AF3CA8C00DA5FDA /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 22B5770C2AF3CA8C00DA5FDA /* ding.wav */; };
 		22B5770F2AF3ED0D00DA5FDA /* NewScrumSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B5770E2AF3ED0D00DA5FDA /* NewScrumSheet.swift */; };
+		22B577112AF3F12C00DA5FDA /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B577102AF3F12C00DA5FDA /* History.swift */; };
 		22D9F6552AF13C06004C0BF2 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D9F6542AF13C06004C0BF2 /* Theme.swift */; };
 		22D9F6572AF13CA3004C0BF2 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D9F6562AF13CA3004C0BF2 /* DailyScrum.swift */; };
 		22D9F6592AF13D73004C0BF2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D9F6582AF13D73004C0BF2 /* CardView.swift */; };
@@ -64,6 +65,7 @@
 		22B577092AF3CA1400DA5FDA /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 		22B5770C2AF3CA8C00DA5FDA /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 		22B5770E2AF3ED0D00DA5FDA /* NewScrumSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScrumSheet.swift; sourceTree = "<group>"; };
+		22B577102AF3F12C00DA5FDA /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		22D9F6542AF13C06004C0BF2 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		22D9F6562AF13CA3004C0BF2 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		22D9F6582AF13D73004C0BF2 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 				22D9F6562AF13CA3004C0BF2 /* DailyScrum.swift */,
 				2263A9082AF2B83F0028BB7B /* ScrumTimer.swift */,
 				22B577092AF3CA1400DA5FDA /* AVPlayer+Ding.swift */,
+				22B577102AF3F12C00DA5FDA /* History.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22B577112AF3F12C00DA5FDA /* History.swift in Sources */,
 				2263A9072AF2B6E80028BB7B /* ScrumProgressViewStyle.swift in Sources */,
 				229CAB472AF17BCE00929356 /* ThemePicker.swift in Sources */,
 				2263A90B2AF2C1270028BB7B /* MeetingFooterView.swift in Sources */,
