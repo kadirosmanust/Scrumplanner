@@ -8,7 +8,7 @@ struct MeetingHeaderView : View {
     private var totalSecond : Int{
         secondsElapsed + secondsRemaining
     }
-    private var proress : Double{
+    private var progress : Double{
         guard totalSecond > 0 else {return 1 }
         
         return Double(secondsElapsed) / Double(secondsRemaining)
@@ -18,7 +18,7 @@ struct MeetingHeaderView : View {
     }
     var body: some View {
         VStack{
-            ProgressView(value: 10, total:15)
+            ProgressView(value: progress)
                 .progressViewStyle(ScrumProgressViewStyle(theme: theme))
             HStack{
                 VStack{
