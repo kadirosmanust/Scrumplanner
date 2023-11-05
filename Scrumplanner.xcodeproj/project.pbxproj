@@ -33,6 +33,8 @@
 		22D9F65B2AF141E3004C0BF2 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D9F65A2AF141E3004C0BF2 /* TrailingIconLabelStyle.swift */; };
 		22D9F65D2AF1438B004C0BF2 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D9F65C2AF1438B004C0BF2 /* ScrumsView.swift */; };
 		22D9F6602AF14C2E004C0BF2 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D9F65F2AF14C2E004C0BF2 /* DetailView.swift */; };
+		22EDB6BD2AF794C90086515A /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EDB6BC2AF794C90086515A /* SpeechRecognizer.swift */; };
+		22EDB6BF2AF79D0B0086515A /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EDB6BE2AF79D0B0086515A /* HistoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +84,8 @@
 		22D9F65A2AF141E3004C0BF2 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		22D9F65C2AF1438B004C0BF2 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		22D9F65F2AF14C2E004C0BF2 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		22EDB6BC2AF794C90086515A /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		22EDB6BE2AF79D0B0086515A /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +170,7 @@
 				22B577102AF3F12C00DA5FDA /* History.swift */,
 				22B577122AF3FEB500DA5FDA /* ScrumStore.swift */,
 				22118F242AF5366900DC47EA /* ErrorWrapper.swift */,
+				22EDB6BC2AF794C90086515A /* SpeechRecognizer.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -188,6 +193,7 @@
 				22118F262AF536B600DC47EA /* ErrorView.swift */,
 				22118F282AF7824200DC47EA /* MeetingTimerView.swift */,
 				22118F2A2AF7841A00DC47EA /* SpeakerArc.swift */,
+				22EDB6BE2AF79D0B0086515A /* HistoryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -330,6 +336,7 @@
 				22118F2B2AF7841A00DC47EA /* SpeakerArc.swift in Sources */,
 				22118F272AF536B600DC47EA /* ErrorView.swift in Sources */,
 				2263A9092AF2B83F0028BB7B /* ScrumTimer.swift in Sources */,
+				22EDB6BF2AF79D0B0086515A /* HistoryView.swift in Sources */,
 				22118F292AF7824200DC47EA /* MeetingTimerView.swift in Sources */,
 				22D9F6572AF13CA3004C0BF2 /* DailyScrum.swift in Sources */,
 				22B577132AF3FEB500DA5FDA /* ScrumStore.swift in Sources */,
@@ -340,6 +347,7 @@
 				22B5770F2AF3ED0D00DA5FDA /* NewScrumSheet.swift in Sources */,
 				22D9F65B2AF141E3004C0BF2 /* TrailingIconLabelStyle.swift in Sources */,
 				22D9F6552AF13C06004C0BF2 /* Theme.swift in Sources */,
+				22EDB6BD2AF794C90086515A /* SpeechRecognizer.swift in Sources */,
 				22D9F65D2AF1438B004C0BF2 /* ScrumsView.swift in Sources */,
 				221B7BA92AF1282F00E35243 /* MeetingView.swift in Sources */,
 				221B7BA72AF1282F00E35243 /* ScrumplannerApp.swift in Sources */,
@@ -508,6 +516,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Scrumplanner/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe the meeting. Audio recordings are discarded after transcription.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can view a text transcription of your meeting in the app.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -536,6 +546,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Scrumplanner/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe the meeting. Audio recordings are discarded after transcription.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can view a text transcription of your meeting in the app.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
