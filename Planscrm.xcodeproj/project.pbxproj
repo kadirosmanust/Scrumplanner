@@ -37,23 +37,6 @@
 		22EDB6BF2AF79D0B0086515A /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EDB6BE2AF79D0B0086515A /* HistoryView.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		221B7BB42AF1283000E35243 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 221B7B9B2AF1282F00E35243 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 221B7BA22AF1282F00E35243;
-			remoteInfo = Scrumplanner;
-		};
-		221B7BBE2AF1283000E35243 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 221B7B9B2AF1282F00E35243 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 221B7BA22AF1282F00E35243;
-			remoteInfo = Scrumplanner;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		22118F242AF5366900DC47EA /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
 		22118F262AF536B600DC47EA /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
@@ -64,8 +47,6 @@
 		221B7BA82AF1282F00E35243 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		221B7BAA2AF1283000E35243 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		221B7BAD2AF1283000E35243 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		221B7BB32AF1283000E35243 /* PlanscrmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanscrmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		221B7BBD2AF1283000E35243 /* PlanscrmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanscrmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2263A9022AF2B2E00028BB7B /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
 		2263A9062AF2B6E80028BB7B /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 		2263A9082AF2B83F0028BB7B /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
@@ -96,20 +77,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		221B7BB02AF1283000E35243 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		221B7BBA2AF1283000E35243 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -125,8 +92,6 @@
 			isa = PBXGroup;
 			children = (
 				221B7BA32AF1282F00E35243 /* Planscrm.app */,
-				221B7BB32AF1283000E35243 /* PlanscrmTests.xctest */,
-				221B7BBD2AF1283000E35243 /* PlanscrmUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -218,42 +183,6 @@
 			productReference = 221B7BA32AF1282F00E35243 /* Planscrm.app */;
 			productType = "com.apple.product-type.application";
 		};
-		221B7BB22AF1283000E35243 /* PlanscrmTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 221B7BCA2AF1283000E35243 /* Build configuration list for PBXNativeTarget "PlanscrmTests" */;
-			buildPhases = (
-				221B7BAF2AF1283000E35243 /* Sources */,
-				221B7BB02AF1283000E35243 /* Frameworks */,
-				221B7BB12AF1283000E35243 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				221B7BB52AF1283000E35243 /* PBXTargetDependency */,
-			);
-			name = PlanscrmTests;
-			productName = ScrumplannerTests;
-			productReference = 221B7BB32AF1283000E35243 /* PlanscrmTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		221B7BBC2AF1283000E35243 /* PlanscrmUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 221B7BCD2AF1283000E35243 /* Build configuration list for PBXNativeTarget "PlanscrmUITests" */;
-			buildPhases = (
-				221B7BB92AF1283000E35243 /* Sources */,
-				221B7BBA2AF1283000E35243 /* Frameworks */,
-				221B7BBB2AF1283000E35243 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				221B7BBF2AF1283000E35243 /* PBXTargetDependency */,
-			);
-			name = PlanscrmUITests;
-			productName = ScrumplannerUITests;
-			productReference = 221B7BBD2AF1283000E35243 /* PlanscrmUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -266,14 +195,6 @@
 				TargetAttributes = {
 					221B7BA22AF1282F00E35243 = {
 						CreatedOnToolsVersion = 15.0.1;
-					};
-					221B7BB22AF1283000E35243 = {
-						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = 221B7BA22AF1282F00E35243;
-					};
-					221B7BBC2AF1283000E35243 = {
-						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = 221B7BA22AF1282F00E35243;
 					};
 				};
 			};
@@ -291,8 +212,6 @@
 			projectRoot = "";
 			targets = (
 				221B7BA22AF1282F00E35243 /* Planscrm */,
-				221B7BB22AF1283000E35243 /* PlanscrmTests */,
-				221B7BBC2AF1283000E35243 /* PlanscrmUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -305,20 +224,6 @@
 				22B5770D2AF3CA8C00DA5FDA /* ding.wav in Resources */,
 				221B7BAE2AF1283000E35243 /* Preview Assets.xcassets in Resources */,
 				221B7BAB2AF1283000E35243 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		221B7BB12AF1283000E35243 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		221B7BBB2AF1283000E35243 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,34 +262,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		221B7BAF2AF1283000E35243 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		221B7BB92AF1283000E35243 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		221B7BB52AF1283000E35243 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 221B7BA22AF1282F00E35243 /* Planscrm */;
-			targetProxy = 221B7BB42AF1283000E35243 /* PBXContainerItemProxy */;
-		};
-		221B7BBF2AF1283000E35243 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 221B7BA22AF1282F00E35243 /* Planscrm */;
-			targetProxy = 221B7BBE2AF1283000E35243 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		221B7BC52AF1283000E35243 /* Debug */ = {
@@ -578,78 +456,6 @@
 			};
 			name = Release;
 		};
-		221B7BCB2AF1283000E35243 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kadirosmanust.ScrumplannerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Planscrm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Planscrm";
-			};
-			name = Debug;
-		};
-		221B7BCC2AF1283000E35243 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kadirosmanust.ScrumplannerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Planscrm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Planscrm";
-			};
-			name = Release;
-		};
-		221B7BCE2AF1283000E35243 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kadirosmanust.ScrumplannerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Scrumplanner;
-			};
-			name = Debug;
-		};
-		221B7BCF2AF1283000E35243 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kadirosmanust.ScrumplannerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Scrumplanner;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -667,24 +473,6 @@
 			buildConfigurations = (
 				221B7BC82AF1283000E35243 /* Debug */,
 				221B7BC92AF1283000E35243 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		221B7BCA2AF1283000E35243 /* Build configuration list for PBXNativeTarget "PlanscrmTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				221B7BCB2AF1283000E35243 /* Debug */,
-				221B7BCC2AF1283000E35243 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		221B7BCD2AF1283000E35243 /* Build configuration list for PBXNativeTarget "PlanscrmUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				221B7BCE2AF1283000E35243 /* Debug */,
-				221B7BCF2AF1283000E35243 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
