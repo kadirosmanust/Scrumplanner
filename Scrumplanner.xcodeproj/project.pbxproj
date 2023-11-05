@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22118F252AF5366900DC47EA /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22118F242AF5366900DC47EA /* ErrorWrapper.swift */; };
+		22118F272AF536B600DC47EA /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22118F262AF536B600DC47EA /* ErrorView.swift */; };
+		22118F292AF7824200DC47EA /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22118F282AF7824200DC47EA /* MeetingTimerView.swift */; };
+		22118F2B2AF7841A00DC47EA /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22118F2A2AF7841A00DC47EA /* SpeakerArc.swift */; };
 		221B7BA72AF1282F00E35243 /* ScrumplannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221B7BA62AF1282F00E35243 /* ScrumplannerApp.swift */; };
 		221B7BA92AF1282F00E35243 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221B7BA82AF1282F00E35243 /* MeetingView.swift */; };
 		221B7BAB2AF1283000E35243 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221B7BAA2AF1283000E35243 /* Assets.xcassets */; };
@@ -49,6 +53,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22118F242AF5366900DC47EA /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
+		22118F262AF536B600DC47EA /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		22118F282AF7824200DC47EA /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
+		22118F2A2AF7841A00DC47EA /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArc.swift; sourceTree = "<group>"; };
 		221B7BA32AF1282F00E35243 /* Scrumplanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumplanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		221B7BA62AF1282F00E35243 /* ScrumplannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumplannerApp.swift; sourceTree = "<group>"; };
 		221B7BA82AF1282F00E35243 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -157,6 +165,7 @@
 				22B577092AF3CA1400DA5FDA /* AVPlayer+Ding.swift */,
 				22B577102AF3F12C00DA5FDA /* History.swift */,
 				22B577122AF3FEB500DA5FDA /* ScrumStore.swift */,
+				22118F242AF5366900DC47EA /* ErrorWrapper.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -176,6 +185,9 @@
 				2263A9062AF2B6E80028BB7B /* ScrumProgressViewStyle.swift */,
 				2263A90A2AF2C1270028BB7B /* MeetingFooterView.swift */,
 				22B5770E2AF3ED0D00DA5FDA /* NewScrumSheet.swift */,
+				22118F262AF536B600DC47EA /* ErrorView.swift */,
+				22118F282AF7824200DC47EA /* MeetingTimerView.swift */,
+				22118F2A2AF7841A00DC47EA /* SpeakerArc.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -315,10 +327,14 @@
 				2263A9072AF2B6E80028BB7B /* ScrumProgressViewStyle.swift in Sources */,
 				229CAB472AF17BCE00929356 /* ThemePicker.swift in Sources */,
 				2263A90B2AF2C1270028BB7B /* MeetingFooterView.swift in Sources */,
+				22118F2B2AF7841A00DC47EA /* SpeakerArc.swift in Sources */,
+				22118F272AF536B600DC47EA /* ErrorView.swift in Sources */,
 				2263A9092AF2B83F0028BB7B /* ScrumTimer.swift in Sources */,
+				22118F292AF7824200DC47EA /* MeetingTimerView.swift in Sources */,
 				22D9F6572AF13CA3004C0BF2 /* DailyScrum.swift in Sources */,
 				22B577132AF3FEB500DA5FDA /* ScrumStore.swift in Sources */,
 				22D9F6602AF14C2E004C0BF2 /* DetailView.swift in Sources */,
+				22118F252AF5366900DC47EA /* ErrorWrapper.swift in Sources */,
 				2263A9032AF2B2E00028BB7B /* MeetingHeaderView.swift in Sources */,
 				229CAB432AF170D900929356 /* DetailEditView.swift in Sources */,
 				22B5770F2AF3ED0D00DA5FDA /* NewScrumSheet.swift in Sources */,
