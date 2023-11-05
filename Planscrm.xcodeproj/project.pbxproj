@@ -59,13 +59,13 @@
 		22118F262AF536B600DC47EA /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		22118F282AF7824200DC47EA /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
 		22118F2A2AF7841A00DC47EA /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArc.swift; sourceTree = "<group>"; };
-		221B7BA32AF1282F00E35243 /* Scrumplanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumplanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		221B7BA32AF1282F00E35243 /* Planscrm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planscrm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		221B7BA62AF1282F00E35243 /* ScrumplannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumplannerApp.swift; sourceTree = "<group>"; };
 		221B7BA82AF1282F00E35243 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		221B7BAA2AF1283000E35243 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		221B7BAD2AF1283000E35243 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		221B7BB32AF1283000E35243 /* ScrumplannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrumplannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		221B7BBD2AF1283000E35243 /* ScrumplannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrumplannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		221B7BB32AF1283000E35243 /* PlanscrmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanscrmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		221B7BBD2AF1283000E35243 /* PlanscrmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanscrmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2263A9022AF2B2E00028BB7B /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
 		2263A9062AF2B6E80028BB7B /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 		2263A9082AF2B83F0028BB7B /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
@@ -124,9 +124,9 @@
 		221B7BA42AF1282F00E35243 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				221B7BA32AF1282F00E35243 /* Scrumplanner.app */,
-				221B7BB32AF1283000E35243 /* ScrumplannerTests.xctest */,
-				221B7BBD2AF1283000E35243 /* ScrumplannerUITests.xctest */,
+				221B7BA32AF1282F00E35243 /* Planscrm.app */,
+				221B7BB32AF1283000E35243 /* PlanscrmTests.xctest */,
+				221B7BBD2AF1283000E35243 /* PlanscrmUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -201,9 +201,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		221B7BA22AF1282F00E35243 /* Scrumplanner */ = {
+		221B7BA22AF1282F00E35243 /* Planscrm */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 221B7BC72AF1283000E35243 /* Build configuration list for PBXNativeTarget "Scrumplanner" */;
+			buildConfigurationList = 221B7BC72AF1283000E35243 /* Build configuration list for PBXNativeTarget "Planscrm" */;
 			buildPhases = (
 				221B7B9F2AF1282F00E35243 /* Sources */,
 				221B7BA02AF1282F00E35243 /* Frameworks */,
@@ -213,14 +213,14 @@
 			);
 			dependencies = (
 			);
-			name = Scrumplanner;
+			name = Planscrm;
 			productName = Scrumplanner;
-			productReference = 221B7BA32AF1282F00E35243 /* Scrumplanner.app */;
+			productReference = 221B7BA32AF1282F00E35243 /* Planscrm.app */;
 			productType = "com.apple.product-type.application";
 		};
-		221B7BB22AF1283000E35243 /* ScrumplannerTests */ = {
+		221B7BB22AF1283000E35243 /* PlanscrmTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 221B7BCA2AF1283000E35243 /* Build configuration list for PBXNativeTarget "ScrumplannerTests" */;
+			buildConfigurationList = 221B7BCA2AF1283000E35243 /* Build configuration list for PBXNativeTarget "PlanscrmTests" */;
 			buildPhases = (
 				221B7BAF2AF1283000E35243 /* Sources */,
 				221B7BB02AF1283000E35243 /* Frameworks */,
@@ -231,14 +231,14 @@
 			dependencies = (
 				221B7BB52AF1283000E35243 /* PBXTargetDependency */,
 			);
-			name = ScrumplannerTests;
+			name = PlanscrmTests;
 			productName = ScrumplannerTests;
-			productReference = 221B7BB32AF1283000E35243 /* ScrumplannerTests.xctest */;
+			productReference = 221B7BB32AF1283000E35243 /* PlanscrmTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		221B7BBC2AF1283000E35243 /* ScrumplannerUITests */ = {
+		221B7BBC2AF1283000E35243 /* PlanscrmUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 221B7BCD2AF1283000E35243 /* Build configuration list for PBXNativeTarget "ScrumplannerUITests" */;
+			buildConfigurationList = 221B7BCD2AF1283000E35243 /* Build configuration list for PBXNativeTarget "PlanscrmUITests" */;
 			buildPhases = (
 				221B7BB92AF1283000E35243 /* Sources */,
 				221B7BBA2AF1283000E35243 /* Frameworks */,
@@ -249,9 +249,9 @@
 			dependencies = (
 				221B7BBF2AF1283000E35243 /* PBXTargetDependency */,
 			);
-			name = ScrumplannerUITests;
+			name = PlanscrmUITests;
 			productName = ScrumplannerUITests;
-			productReference = 221B7BBD2AF1283000E35243 /* ScrumplannerUITests.xctest */;
+			productReference = 221B7BBD2AF1283000E35243 /* PlanscrmUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -277,7 +277,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 221B7B9E2AF1282F00E35243 /* Build configuration list for PBXProject "Scrumplanner" */;
+			buildConfigurationList = 221B7B9E2AF1282F00E35243 /* Build configuration list for PBXProject "Planscrm" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -290,9 +290,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				221B7BA22AF1282F00E35243 /* Scrumplanner */,
-				221B7BB22AF1283000E35243 /* ScrumplannerTests */,
-				221B7BBC2AF1283000E35243 /* ScrumplannerUITests */,
+				221B7BA22AF1282F00E35243 /* Planscrm */,
+				221B7BB22AF1283000E35243 /* PlanscrmTests */,
+				221B7BBC2AF1283000E35243 /* PlanscrmUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -376,12 +376,12 @@
 /* Begin PBXTargetDependency section */
 		221B7BB52AF1283000E35243 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 221B7BA22AF1282F00E35243 /* Scrumplanner */;
+			target = 221B7BA22AF1282F00E35243 /* Planscrm */;
 			targetProxy = 221B7BB42AF1283000E35243 /* PBXContainerItemProxy */;
 		};
 		221B7BBF2AF1283000E35243 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 221B7BA22AF1282F00E35243 /* Scrumplanner */;
+			target = 221B7BA22AF1282F00E35243 /* Planscrm */;
 			targetProxy = 221B7BBE2AF1283000E35243 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -514,22 +514,28 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Scrumplanner/Preview Content\"";
+				DEVELOPMENT_TEAM = DZNL6Y2RW4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Planscrm;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe the meeting. Audio recordings are discarded after transcription.";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can view a text transcription of your meeting in the app.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kadirosmanust.Scrumplanner;
+				PRODUCT_BUNDLE_IDENTIFIER = kadirosmanust.Planscrm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -544,22 +550,28 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Scrumplanner/Preview Content\"";
+				DEVELOPMENT_TEAM = DZNL6Y2RW4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Planscrm;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe the meeting. Audio recordings are discarded after transcription.";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can view a text transcription of your meeting in the app.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kadirosmanust.Scrumplanner;
+				PRODUCT_BUNDLE_IDENTIFIER = kadirosmanust.Planscrm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -581,7 +593,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scrumplanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Scrumplanner";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Planscrm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Planscrm";
 			};
 			name = Debug;
 		};
@@ -600,7 +612,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scrumplanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Scrumplanner";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Planscrm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Planscrm";
 			};
 			name = Release;
 		};
@@ -641,7 +653,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		221B7B9E2AF1282F00E35243 /* Build configuration list for PBXProject "Scrumplanner" */ = {
+		221B7B9E2AF1282F00E35243 /* Build configuration list for PBXProject "Planscrm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				221B7BC52AF1283000E35243 /* Debug */,
@@ -650,7 +662,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		221B7BC72AF1283000E35243 /* Build configuration list for PBXNativeTarget "Scrumplanner" */ = {
+		221B7BC72AF1283000E35243 /* Build configuration list for PBXNativeTarget "Planscrm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				221B7BC82AF1283000E35243 /* Debug */,
@@ -659,7 +671,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		221B7BCA2AF1283000E35243 /* Build configuration list for PBXNativeTarget "ScrumplannerTests" */ = {
+		221B7BCA2AF1283000E35243 /* Build configuration list for PBXNativeTarget "PlanscrmTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				221B7BCB2AF1283000E35243 /* Debug */,
@@ -668,7 +680,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		221B7BCD2AF1283000E35243 /* Build configuration list for PBXNativeTarget "ScrumplannerUITests" */ = {
+		221B7BCD2AF1283000E35243 /* Build configuration list for PBXNativeTarget "PlanscrmUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				221B7BCE2AF1283000E35243 /* Debug */,
